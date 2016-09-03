@@ -5,7 +5,7 @@ div#wrapper {
 }
 
 .top-banner {
-    display: block;
+    display: none !important;
     height: 20px;
     background-color: rgba(255,255,255,0.9) !important;
     z-index: 1800 !important;
@@ -16,12 +16,12 @@ div#wrapper {
     left: 0;
     position: fixed !important;
     right: 0;
-    top: 20px !important;
+    top: 0px !important;
     z-index: 1030;
 }
 #app-content-wrapper {
     position: absolute !important;
-    top: 0px;
+    top: 55px !important;
     left: 0;
     width:100%;
 
@@ -146,7 +146,7 @@ div#wrapper {
 
 #single .wp-caption img, #single img {
     min-width: 100% !important;
-    height: auto;
+    height: 100%;
     max-width: 100% !important;
 }
 
@@ -159,6 +159,8 @@ div#wrapper {
     color: #d10000 !important;
 
 }
+
+
 .media-object-thumb {
     width: 100%;
     height: 185px;
@@ -488,7 +490,7 @@ div#login-page form div.list-block.center {
 
 
 #single, #post-comments-list {
-    min-height: 340px;
+    min-height: 20%;
     background: none !important;
     margin-bottom: 10px;
     overflow-x: hidden;
@@ -512,7 +514,7 @@ div#login-page form div.list-block.center {
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 5px 15px !important;
+    padding: 10px 15px !important;
     font-size: 18px;
     line-height: 20px;
 }
@@ -525,7 +527,7 @@ div#login-page form div.list-block.center {
     z-index: 10000;
     width: 100%;
     padding: 10px 10px 10px 10px !important;
-    top:30px;
+    top:10px;
     color: #333 !important;
 }
 
@@ -604,7 +606,7 @@ div#login-page form div.list-block.center {
     text-align: center;
     -webkit-transition: .3s;
     padding: 10px 0;
-    color: #8e8e8e !important;
+    color: #d10000 !important;
     bottom: -3px !important;
     -moz-transition: .3s;
     -o-transition: .3s;
